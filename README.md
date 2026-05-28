@@ -94,10 +94,7 @@ sudo systemctl enable httpd
 - SSL encryption enabled (HTTPS)
 - Directory listing disabled
 - Basic access control configured
-- SELinux security applied
-
-:contentReference[oaicite:1]{index=1}  
-:contentReference[oaicite:2]{index=2}  
+- SELinux security applied  
 
 ---
 
