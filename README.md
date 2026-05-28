@@ -54,7 +54,7 @@ apache-project/
 # Step-by-Step Implementation
 
 ## Installation & Configuration
-
+```text
 Install Apache:
 
 sudo dnf install httpd -y
@@ -63,7 +63,7 @@ Start and enable service:
 
 sudo systemctl start httpd
 sudo systemctl enable httpd
-
+```
 ---
 
 ## Virtual Host Configuration
