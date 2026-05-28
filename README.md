@@ -2,7 +2,12 @@
 
 This project demonstrates the deployment, configuration, and security hardening of an Apache Web Server on a Linux-based system.
 
-:contentReference[oaicite:0]{index=0}
+---
+
+## Project Architecture & Paths
+* **Web Root:** `/web/project/index.html`
+* **Vhost Config:** `/etc/httpd/conf.d/project.conf`
+* **SSL Certificates:** `/etc/httpd/ssl/`
 
 ---
 
@@ -35,15 +40,17 @@ This project is focused on setting up a secure and functional web server using A
 ## Project Structure
 
 apache-project/
-│
 ├── index.html
+├── project.conf
 ├── README.md
 └── screenshots/
 
-/web/project  
+/web/project/index.html
 /etc/httpd/conf.d/project.conf
 
 ---
+
+# Step-by-Step Implementation
 
 ## Installation & Configuration
 
