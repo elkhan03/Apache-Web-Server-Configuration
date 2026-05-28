@@ -44,9 +44,9 @@ apache-project/
 ├── index.html
 ├── project.conf
 ├── README.md
-└── screenshots/
 ```
-/web/project/index.html
+/web/project/index.html    
+
 /etc/httpd/conf.d/project.conf
 
 ---
