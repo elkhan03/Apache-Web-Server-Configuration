@@ -135,14 +135,6 @@ https://project.local
 
 ## Screenshots
 
-Add screenshots here showing:
-
-- Apache installation
-- Service running status
-- Virtual host configuration
-- Website working
-- HTTPS warning page
-- Logs output
 
 ---
 
