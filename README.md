@@ -67,7 +67,7 @@ sudo systemctl enable httpd
 ---
 
 ## Virtual Host Configuration
-
+```
 <VirtualHost *:80>
     ServerName project.local
     Redirect permanent / https://project.local/
@@ -86,7 +86,7 @@ sudo systemctl enable httpd
         Options -Indexes
     </Directory>
 </VirtualHost>
-
+```
 ---
 
 ## Security Features
