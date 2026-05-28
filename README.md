@@ -99,19 +99,19 @@ sudo systemctl enable httpd
 ---
 
 ## SSL Certificate Creation
-
+```
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 -keyout /etc/httpd/ssl/project.key \
 -out /etc/httpd/ssl/project.crt
-
+```
 ---
 
 ## Firewall Configuration
-
+```
 sudo firewall-cmd --permanent --add-service=http
 sudo firewall-cmd --permanent --add-service=https
 sudo firewall-cmd --reload
-
+```
 ---
 
 ## Logging
