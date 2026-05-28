@@ -39,6 +39,7 @@ This project is focused on setting up a secure and functional web server using A
 
 ## Project Structure
 
+```text
 apache-project/
 ├── index.html
 ├── project.conf
